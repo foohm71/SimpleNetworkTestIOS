@@ -34,14 +34,21 @@ test("TC01 - Network Test", function(target, application) {
     logElementTree();	 
     delay(1);
     window.buttons()["Button"].tap(); 
-    delay(1);
+    delay(2);
     logElementTree();	 
-    var expectedString = "Network OK";
-    var actualString = window.staticTexts()["Label"].value();
-    if (actualString === actualString) {
-       UIALogger.logPass(actualString);
+	var expectedString = "Network OK";
+	var actualString = window.staticTexts()["Label"].value();
+	var firstText = window.staticTexts()[0].value();
+	var networkOK = window.staticTexts()["Label"].text; 
+	UIALogger.logMessage("actualString is " + actualString);
+	UIALogger.logMessage("firstText is " + firstText);
+	UIALogger.logMessage("networkOK is " + networkOK); 
+						 
+//    if (actualString === actualString) {
+	if (window.staticTexts()["Network OK"].isVisible()) { 
+       UIALogger.logPass("Network OK");
     } else {
-       UIALogger.logFail(actualString);
+       UIALogger.logFail("No network");
     }
 });	 
 

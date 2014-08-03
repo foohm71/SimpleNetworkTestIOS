@@ -39,6 +39,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             NSLog(@"Network OK");
             mLabel.text = @"Network OK";
+            mLabel.accessibilityLabel = @"Network OK";
         });
     };
     
