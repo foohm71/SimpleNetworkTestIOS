@@ -23,7 +23,7 @@
                     "task": "xcode-test",
                     "targets": [
                         {
-                            "project": "SimpleNetworkTest.xcodeproj",
+                            "project": "SimpleNetworkTest.xcodeproj"
                         }
                     ]
                 }
