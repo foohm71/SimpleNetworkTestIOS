@@ -73,7 +73,7 @@
             "sdk": "iphoneos",
             "device_test_dir": "SimpleNetworkTestFunctionalTest",
             "device_test_file": "SimpleNetworkTestFuncTest.js",
-            "device_type_id": "54",
+            "device_type_id": "81",
             "test_type": "uiautomation",
             "build": {
                 "test": {
