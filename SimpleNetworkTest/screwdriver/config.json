@@ -7,7 +7,6 @@
         "xcode_version": "5",
         "sdk": "iphoneos7.0",
         "project": "SimpleNetworkTest.xcodeproj",
-        "scheme": "SimpleNetworkTest",
         "coverage_type": "none",
         "configuration": "Debug",
         "build": {
@@ -25,7 +24,6 @@
                     "targets": [
                         {
                             "project": "SimpleNetworkTest.xcodeproj",
-                            "scheme": "SimpleNetworkTest"
                         }
                     ]
                 }
