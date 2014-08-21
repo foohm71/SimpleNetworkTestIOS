@@ -74,7 +74,7 @@
             "device_test_dir": "SimpleNetworkTestFunctionalTest",
             "device_test_file": "SimpleNetworkTestFuncTest.js",
             "build_periodically": "*/20 * * * *",
-            "device_type_id": "11",
+            "device_type_id": "98",
             "test_type": "uiautomation",
             "build": {
                 "test": {
