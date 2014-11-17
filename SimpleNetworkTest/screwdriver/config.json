@@ -90,6 +90,27 @@
                 }
             }
        },
+       "devicelab-iphone6": {
+            "sdk": "iphoneos",
+            "device_test_dir": "SimpleNetworkTestFunctionalTest",
+            "device_test_file": "SimpleNetworkTestFuncTest.js",
+            "build_periodically": "*/20 * * * *",
+            "device_type_id": "116",
+            "test_type": "uiautomation",
+            "build": {
+                "test": {
+                    "task": "xcode5-device-test",
+                    "targets": [
+                        {
+                            "target": "SimpleNetworkTest"
+                        }
+                    ]
+                },
+                "publish": {
+                    "task": "none"
+                }
+            }
+       },
        "devicelab-iphone5s": {
             "sdk": "iphoneos",
             "device_test_dir": "SimpleNetworkTestFunctionalTest",
